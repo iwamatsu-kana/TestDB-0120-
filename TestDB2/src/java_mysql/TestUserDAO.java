@@ -83,7 +83,7 @@ public void selectByName(String name){
 }
 
 
-public void selectBypassword(String password){
+public void selectByPassword(String password){
 	DBConnector db = new DBConnector();
 	Connection con = db.getConnection();
 
